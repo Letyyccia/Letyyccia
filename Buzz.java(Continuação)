@@ -9,7 +9,10 @@ package Aula3;
 public class Buzz {
     //Atributos
     private boolean asas;
-
+    private boolean laser;
+    private boolean golpes;
+    private boolean capacete;
+    
     //Métodos
     public void abreAsas(){
         if (asas == true){
@@ -43,10 +46,17 @@ public class Buzz {
             laser = true;
         }
     }
-    public void braçoArticuladoParaGolpes(){
+    public void braçoParaGolpes(){
         if (golpes == true){
             golpes = false;
         }else{
             golpes = true;
+        }
+    }
+    public void capaceteBuzz(){
+        if (capacete == true){
+            capacete = false;
+        }else{
+            capacete = true;
         }
     }
