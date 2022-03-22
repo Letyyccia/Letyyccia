@@ -1,0 +1,12 @@
+package Aula3;
+
+public class BuzzMain {
+    public static void main(String[] args) {
+        Buzz buzz1 = new Buzz();
+        buzz1.disparaLaser();
+        buzz1.frases(6);
+        System.out.println(buzz1.abreAsas());
+        buzz1.braçoParaGolpes();
+        System.out.println(buzz1.capaceteBuzz());
+    }
+}
