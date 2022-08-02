@@ -7,7 +7,8 @@ public class cliente {
     produto produtos;
 
     Scanner sc = new Scanner(System.in);
-
+    
+    //metodo construtor
     public cliente(String nome, String cpf, int telefone, produto produtos) {
         this.nome = nome;
         this.cpf = cpf;
