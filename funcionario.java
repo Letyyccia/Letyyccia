@@ -3,7 +3,8 @@ public class funcionario {
     String cpf;
     int telefone;
     double salario;
-
+    
+    //metodo construtor
     public funcionario(String nome, String cpf, int telefone, double salario) {
         this.nome = nome;
         this.cpf = cpf;
