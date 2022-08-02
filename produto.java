@@ -3,7 +3,8 @@ public class produto {
     int codigo;
     double valor;
     funcionario vendas;
-
+   
+    //metodo construtor
     public produto(String nome, int codigo, double valor, funcionario vendas) {
         this.nome = nome;
         this.codigo = codigo;
